@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class Writer {
     private int writerId;
     private String firstname;
@@ -55,5 +57,16 @@ public class Writer {
 
     public void setBooks(Books[] books) {
         this.books = books;
+    }
+
+    @Override
+    public String toString() {
+        return "Writer{" +
+                "writerId=" + writerId +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", age=" + age +
+                ", books=" + Arrays.toString(books) +
+                '}';
     }
 }
