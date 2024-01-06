@@ -16,4 +16,44 @@ public class Writer {
         this.age = age;
         this.books = books;
     }
+
+    public int getWriterId() {
+        return writerId;
+    }
+
+    public void setWriterId(int writerId) {
+        this.writerId = writerId;
+    }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Books[] getBooks() {
+        return books;
+    }
+
+    public void setBooks(Books[] books) {
+        this.books = books;
+    }
 }
