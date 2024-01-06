@@ -46,4 +46,14 @@ public class Books {
     public void setWriter(int writer) {
         this.writer = writer;
     }
+
+    @Override
+    public String toString() {
+        return "Books{" +
+                "bookId=" + bookId +
+                ", bookName='" + bookName + '\'' +
+                ", yearOfPublish=" + yearOfPublish +
+                ", writer=" + writer +
+                '}';
+    }
 }
