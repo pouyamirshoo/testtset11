@@ -6,5 +6,12 @@ public class Books {
     private int yearOfPublish;
     private int writer;
 
+    public Books() {
+    }
 
+    public Books(String bookName, int yearOfPublish, int writer) {
+        this.bookName = bookName;
+        this.yearOfPublish = yearOfPublish;
+        this.writer = writer;
+    }
 }
